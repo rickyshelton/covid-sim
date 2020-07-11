@@ -1,9 +1,0 @@
-results-int.avNE.age.xls                      47e2edabd665c01c26504552de08bc65616552173c8a4b348923a5c8d9850a911c3067758e337f42193b781f9d83638f608deec9fb3afa0478577a8bf28710d5
-results-int.avNE.severity.adunit.xls          d4dd2f14e3e81100f96206da14c1fd0c5d11bf4c4b3b0380a8353a0f74bb34c3d7c0c8b80e413cfb869ae33e0e06c3ea9497f4dcdd4b1a02ac22ff128f98200b
-results-int.avNE.severity.xls                 a4be8a51a20dc27e240de1f40878aad87a838f2f35d55e998f57635bf468e47466cb32565b31f5893df28510c4da39df3807417f80ea7ae6cb6beadfc4496404
-results-noint-repeat.avNE.age.xls             1020a0f20dc836ae49d0387ee039cae52e394fc9bef01ab5062002f917b548bd1741c02a09aa37e3e21550ee9ee05834c24c0c0690cdb37a2037a93076bdd1bf
-results-noint-repeat.avNE.severity.adunit.xls 3dbbc836b65ae8d6042c14f25a5f843d49866ce0ed134dd37c32c9d72c615a4afe479a4bd8c46bd8039cb2a74efef19ba9f4ce4bdf95adeea9a1497d18567d29
-results-noint-repeat.avNE.severity.xls        1a8436f74472edf570a4583a71221ebdfdd39ac01eb30e7ab768f89d07cbbc4eb1e9d9cb6eccad17f94905e616bab03b1c9aec5d7014738aa2553b5743ad39cc
-results-noint.avNE.age.xls                    1020a0f20dc836ae49d0387ee039cae52e394fc9bef01ab5062002f917b548bd1741c02a09aa37e3e21550ee9ee05834c24c0c0690cdb37a2037a93076bdd1bf
-results-noint.avNE.severity.adunit.xls        3dbbc836b65ae8d6042c14f25a5f843d49866ce0ed134dd37c32c9d72c615a4afe479a4bd8c46bd8039cb2a74efef19ba9f4ce4bdf95adeea9a1497d18567d29
-results-noint.avNE.severity.xls               1a8436f74472edf570a4583a71221ebdfdd39ac01eb30e7ab768f89d07cbbc4eb1e9d9cb6eccad17f94905e616bab03b1c9aec5d7014738aa2553b5743ad39cc

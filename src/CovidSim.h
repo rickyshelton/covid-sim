@@ -1,34 +1,28 @@
-#pragma once
-
 #ifndef COVIDSIM_COVIDSIM_H_INCLUDED_
 #define COVIDSIM_COVIDSIM_H_INCLUDED_
 
-#include "MachineDefines.h"
+// Compiling with Clang from VS requires libomp.lib to be included in
+// Project, Properties, Input, Additional Dependencies, however
+// that causes VS/Intel compilers to fail to build if libomp.lib is
+// not found. The following should include the lib file only on Clang.
 
-#define KMP_LIBRARY throughput
+#ifdef _WIN32
+  #ifdef __clang__
+#pragma comment(lib, "libomp.lib")
+  #endif
+#endif
 
-#include <limits.h>
-#include <stdio.h>
-#include <stdlib.h>
-#include <stddef.h>
-#include <math.h>
-#include <string.h>
-#include <signal.h>
-#include <time.h>
+#include <climits>
+#include <cstdio>
+#include <cstdlib>
+#include <cstddef>
+
+#include <cmath>
+#include <cstring>
+#include <csignal>
+#include <ctime>
 
 #include "Country.h"
 #include "Constants.h"
-
-  /*
-	#define HOST_TREATED(x) (0)
-	#define HOST_TO_BE_TREATED(x) (0)
-	#define PLACE_TREATED(x,y) (0)
-  */
-
-//// place type codes
-#define PlaceType_PrimarySchool			0
-#define PlaceType_SecondarySchool		1
-#define PlaceType_University			2
-#define PlaceType_Office				3
 
 #endif // COVIDSIM_COVIDSIM_H_INCLUDED_
